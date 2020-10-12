@@ -1,5 +1,10 @@
+// For users who use babel7, that can be configured in babel.config.js
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
+  plugins: [
+    ['import', {
+      libraryName: 'vant',
+      libraryDirectory: 'es',
+      style: true
+    }, 'vant']
   ]
-}
+};
