@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <van-cell-group>
-      <van-cell size="large" title="百胜游戏" />
+      <van-cell size="large" title="BestGame" />
     </van-cell-group>
 
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
