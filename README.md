@@ -1,5 +1,7 @@
 # entry
 
+A simple sign-up form. VantUI.
+
 ## Project setup
 ```
 npm install
