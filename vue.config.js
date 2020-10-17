@@ -8,7 +8,7 @@ module.exports = {
                         // overide with less vars
 
                         // or override with less file
-                        hack: `true; @import "./src/assets/entry.less";`,
+                        hack: `true; @import "./src/style/entry.less";`,
                     },
                 },
             },

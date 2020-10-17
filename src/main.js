@@ -7,6 +7,9 @@ import { Cell, CellGroup } from 'vant'
 import { Lazyload } from 'vant'
 import { Swipe, SwipeItem } from 'vant'
 
+
+
+
 Vue.use(Swipe)
 Vue.use(SwipeItem)
 Vue.use(Form)
@@ -16,11 +19,11 @@ Vue.use(Cell)
 Vue.use(CellGroup)
 Vue.use(Lazyload)
 
-
-
 Vue.config.productionTip = false
 
 
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+
+
